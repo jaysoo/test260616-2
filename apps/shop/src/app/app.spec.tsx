@@ -21,4 +21,8 @@ describe('App', () => {
     );
     expect(getByText('Nx Shop Demo')).toBeInTheDocument();
   });
+
+  it('should fail', () => {
+    expect(true).toBe(false);
+  });
 });
